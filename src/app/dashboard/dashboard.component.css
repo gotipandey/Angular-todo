@@ -1,0 +1,17 @@
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+.content-header {
+    text-align: center;
+    margin: 5px;
+    font-weight: bold;
+}
+
+section {
+    margin: 5px;
+}
+
+a {
+    padding: 15px;
+    border: 1px solid black;
+    margin: 5px;
+}
