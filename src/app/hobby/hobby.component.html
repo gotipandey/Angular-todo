@@ -1,1 +1,7 @@
-<p>hobby works!</p>
+<input type="text" placeholder="Enter Hobby" [(ngModel)]="hobby" (keyup.enter)="getVal()" />
+<h2>Hobbies</h2>
+  <ul>
+    <li *ngFor="let hobby of hobbies">
+      {{ hobby }}
+    </li>
+  </ul>
