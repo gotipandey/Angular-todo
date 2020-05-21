@@ -5,6 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './hobby.component.html',
   styleUrls: ['./hobby.component.scss']
 })
+
 export class HobbyComponent implements OnInit {
   hobby: string;
   hobbies = [];
@@ -14,6 +15,7 @@ export class HobbyComponent implements OnInit {
   }
   
   getVal(){
+    console.log(this.hobby);
     this.hobbies.push(this.hobby);
     this.hobby = '';
   }
